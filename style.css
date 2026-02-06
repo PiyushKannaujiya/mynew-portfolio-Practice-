@@ -19,5 +19,46 @@ body{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+}
 
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: .3s;
+   
+}
+.navbar a:hover{
+    color: #0ef;
+}
+.imga{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display:flex;
+    align-items:center ;
+}
+.imga:hover{
+    border: white;
+}
+.home {
+    position: relative;
+    width: 100%;
+    justify-content: space-between ;
+    height: 100vh ;
+    
+    background-color: rgb(21, 85, 108);
+    background-position: flex;
+    display: flex;
+    align-items: center;
+    padding: 70px,10%,0;
 }
