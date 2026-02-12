@@ -39,6 +39,8 @@ body{
     text-decoration: none;
     margin-left: 35px;
     transition: .3s;
+    animation: slideLeft 1s ease forwards;
+    animation-delay:calc(.2s * var(--i));
 }
 
 .navbar a:hover{
@@ -68,6 +70,8 @@ body{
 
 .home-content h3:nth-of-type(2){
     margin-bottom: 30px;
+    animation:slideTop 1s ease forwards ;
+     animation-delay: .7s;
 }
 
 .home-content h3 span{
@@ -107,6 +111,10 @@ body{
     font-size: 20px;
     color: #0ef;
     text-decoration: none;
+    transition: .5s ease;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s *var(--i));
     margin: 30px 15px 30px 0;
 }
 
@@ -126,6 +134,11 @@ body{
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
+    opacity: 0;
+   animation: slideLeft 1s ease forwards;
+    animation-delay:2s ;
+    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+
 }
 
 .btn-box:hover{
