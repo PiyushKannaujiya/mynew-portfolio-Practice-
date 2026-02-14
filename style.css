@@ -7,6 +7,7 @@
 
 body{
     color: #ededed;
+    background: #081b29;
 }
 
 .header{
@@ -78,6 +79,20 @@ body{
 .home-content h3 span{
     color: #0ef;
 }
+.about-text h4{
+    font-size: 29px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+.about-text p{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
 
 .home-content h1{
     font-size: 56px;
@@ -164,8 +179,14 @@ body{
     width: 100%;
     border-radius: 8px;
 }
+.about-text h2{
+    font-size: 60px;
 
-/* Fixed slideLeft direction */
+}
+.about-text h2 span{
+color: #0ef;
+}
+
 @keyframes slideRight{
     0%{
         transform: translateX(-100px);
